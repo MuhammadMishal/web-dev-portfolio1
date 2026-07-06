@@ -3,6 +3,12 @@
   padding: 0;
   font-family: "Open Sans", sans-serif;
 }
+.dark-2 {
+  color: #474747;
+}
+header {
+  background-color: #fff8f3;
+}
 .btn {
   background-color: #fd6e0a;
   padding: 5px 8px;
@@ -14,13 +20,43 @@
   height: 40px;
   border: none;
 }
+.btn-2 {
+  background-color: #fd6e0a;
+  padding: 5px 8px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+  border: none;
+  width: 150px;
+  height: 55px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.btn-3 {
+  background-color: white;
+  padding: 5px 8px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 15px;
+  color: #fd6e0a;
+  border: none;
+  width: 120px;
+  height: 55px;
+  font-weight: 700;
+  border: 1px solid #fd6e0a;
+  cursor: pointer;
+}
+.container {
+  max-width: 1280px;
+  margin: auto;
+}
 
 nav {
   display: flex;
   justify-content: space-between;
-  max-width: 1280px;
-  margin: auto;
-  padding: 20px 0;
+
+  padding: 30px 0;
 }
 .logo {
   font-weight: bold;
@@ -38,4 +74,27 @@ ul {
 }
 ul li a {
   text-decoration: none;
+}
+/* hero section */
+.hero-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-left h1 {
+  font-weight: bold;
+  font-size: 40px;
+}
+.hero-left h3 {
+  font-weight: 600;
+  font-size: 20px;
+}
+.hero-left p {
+  font-size: 15px;
+}
+.button {
+  font-size: 15px;
+}
+.hero-left-btn {
+  margin-top: 10px;
 }

@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+  margin: auto;
+  padding: 20px 0;
+}
+.logo {
+  font-weight: bold;
+  font-size: 30px;
+}
+.logo-h {
+  color: #fd6e0a;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 10px;
+}
+ul li a {
+  text-decoration: none;
+}

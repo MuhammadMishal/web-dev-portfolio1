@@ -3,6 +3,9 @@
   padding: 0;
   font-family: "Open Sans", sans-serif;
 }
+.dark-1 {
+  color: #181818;
+}
 .dark-2 {
   color: #474747;
 }
@@ -200,4 +203,44 @@ ul li a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.my-amazing-parent {
+  text-align: center;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 50px;
+  gap: 12px;
+  grid-auto-rows: 250px;
+  grid-template-areas:
+    "one two three"
+    "four two six"
+    "four five six";
+}
+.gallery img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.box-1 {
+  grid-area: one;
+}
+.box-2 {
+  grid-area: two;
+}
+.box-3 {
+  grid-area: three;
+}
+.box-4 {
+  grid-area: four;
+}
+.box-5 {
+  grid-area: five;
+}
+.box-6 {
+  grid-area: six;
+}
+.amaze {
+  font-size: 35px;
 }

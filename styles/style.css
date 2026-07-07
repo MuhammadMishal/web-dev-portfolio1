@@ -6,6 +6,9 @@
 .dark-2 {
   color: #474747;
 }
+.dark-3 {
+  color: #757575;
+}
 header {
   background-color: #fff8f3;
 }
@@ -97,4 +100,104 @@ ul li a {
 }
 .hero-left-btn {
   margin-top: 10px;
+}
+
+.about-parent {
+  background-color: #fff8f3;
+  margin: 100px auto;
+  padding: 80px;
+  text-align: center;
+}
+.about-box-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.gap {
+  margin-top: 40px;
+}
+.gap-2 {
+  margin-top: 20px;
+}
+.what-i-do-container {
+  text-align: center;
+}
+.what-i-do-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.what-i-do-card {
+  text-align: start;
+  /* background-color: aliceblue; */
+  padding: 40px;
+  border-radius: 15px;
+  margin-top: 30px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.07);
+  height: 277px;
+}
+.left-resume-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.right-resume-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.resume {
+  max-width: 1100px;
+  margin: 100px auto;
+}
+
+.resume h2 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 70px;
+}
+
+.resume-container {
+  display: flex;
+  gap: 50px;
+}
+
+.resume-column {
+  flex: 1;
+}
+
+.resume-column h3 {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.resume-item {
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #ddd;
+}
+
+.resume-item h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.resume-item h5 {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.resume-item p {
+  color: #777;
+  line-height: 1.8;
+}
+.cv-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

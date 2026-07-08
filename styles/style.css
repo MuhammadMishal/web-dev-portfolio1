@@ -86,6 +86,7 @@ ul li a {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* margin-top: 150px; */
 }
 .hero-left h1 {
   font-weight: bold;
@@ -141,6 +142,7 @@ ul li a {
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.07);
   height: 277px;
 }
+/* resume section */
 .left-resume-container {
   display: flex;
   flex-direction: column;
@@ -204,6 +206,10 @@ ul li a {
   justify-content: center;
   align-items: center;
 }
+/* my amazing section
+
+
+*/
 .my-amazing-parent {
   text-align: center;
 }
@@ -243,4 +249,95 @@ ul li a {
 }
 .amaze {
   font-size: 35px;
+}
+/* Footer */
+
+.footer {
+  background: #fff8f3;
+  padding: 100px 150px;
+  margin-top: 100px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 120px;
+}
+
+.footer-left,
+.footer-right {
+  flex: 1;
+}
+
+.footer-left h2,
+.footer-right h2 {
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #181818;
+}
+
+.footer-left p {
+  color: #757575;
+  line-height: 28px;
+  margin-bottom: 25px;
+  max-width: 500px;
+}
+
+/* Social Icons */
+
+.social-icons {
+  display: flex;
+  gap: 30px;
+}
+
+.social-icons a {
+  color: #fd6e0a;
+  font-size: 22px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #181818;
+}
+
+/* Form */
+
+.footer-right form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-right input,
+.footer-right textarea {
+  width: 100%;
+  padding: 18px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  background: #fff;
+}
+
+.footer-right textarea {
+  height: 150px;
+  resize: none;
+}
+
+.footer-right button {
+  width: 150px;
+  height: 55px;
+  border: none;
+  border-radius: 5px;
+  background: #fd6e0a;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.footer-right button:hover {
+  background: #e65c00;
 }
